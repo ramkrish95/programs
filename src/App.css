@@ -1,38 +1,31 @@
 .App {
-  text-align: center;
+  text-align:center;
+  background-color: rgb(189, 174, 202);
+  background-image: url(grass.jpg);
+}
+li{
+  list-style-type: none;
+}
+a:link,a:visited {
+  color: rgb(236, 231, 231);
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover {
+  color: rgb(214, 16, 16);
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:active {
+  color: rgb(70, 144, 79);
+  text-decoration: underline;
+}
+a{
+  font-size: 22px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+

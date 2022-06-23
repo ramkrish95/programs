@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: rgb(189, 174, 202);
+  }
+  input {
+    border-radius: 4px;
+    border: 3px solid rgb(214, 130, 28);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 300px;
+  }
+  button{
+    background: #26283b;
+    color: rgb(181, 61, 61);
+    font-size: 16px;
+    border: 2px solid rgb(74, 98, 158);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: rgb(98, 128, 135);
+    transition: .2s ease-in-out;
+    cursor: pointer; 
+    padding: 10px;
+    font-size: 18px; 
+    border-radius: 5px;
+}
+
+p{
+font-size:20px;
+}
+h2{
+  color: rgb(45, 12, 127);
+}
